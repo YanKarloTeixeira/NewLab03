@@ -1,0 +1,14 @@
+﻿<img src="assets/logo.png">
+
+<h1>List All Students</h1>
+
+<ul>
+    <li *ngFor="let course of courses">
+
+        <h3><label>First Name: </label> {{course.firstName}} </h3>
+        <h4><label>Student Number: </label> {{course.studentNumber}} </h4>
+        <h4><label>Program: </label> {{course.program}} </h4>
+    </li>
+</ul>
+
+
