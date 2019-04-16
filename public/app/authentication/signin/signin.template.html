@@ -1,17 +1,17 @@
 ﻿<form class =".form" (ngSubmit)="signin()">
     <img src="assets/logo.png">
-    <div>
+    <div class="container p-4">
         <label>Username:</label>
         <input type="text" [(ngModel)]="credentials.username"
                name="username">
     </div>
-    <div>
+    <div class="container p-4">
         <label>Password:</label>
         <input type="password" [(ngModel)]="credentials.password"
                name="password">
     </div>
 
-    <div>
+    <div class="container p-4">
         <input type="submit" value="Sign In">
     </div>
     
